@@ -14,7 +14,7 @@ const propTypes = {
 //v2 : replace div by span
 function DisplayText({formatter, style, value}) {
     return(
-        <div className={style}>{formatter(value)}</div>
+        <div className={style.className}>{formatter(value)}</div>
     );
 }
 
